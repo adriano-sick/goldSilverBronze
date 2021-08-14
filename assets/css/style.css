@@ -1,0 +1,62 @@
+/* Adriano Siqueira - 8/13/2021 - Gold, Silver and Bronze */
+
+* {
+    padding: 3px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.gold {
+    background-color: gold;
+}
+
+.silver {
+    background-color: silver;
+}
+
+.bronze{
+    background-color: #B08D57;
+}
+
+.top-area {
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin: 3px 5px;
+    border: 2px solid black;
+    border-radius: 30px ;
+}
+
+.top-area:hover {
+    opacity: 0.8;
+    border: 5px ridge black;
+}
+
+.botton-area {
+    float: left;
+    width: 100%;
+    margin: 10px 0px;
+    border: 10px double black;
+    font-size: 30px;
+}
+
+.botton-area:hover {
+    opacity: 0.6;
+    border: 10px ridge black;
+}
+
+button:hover {
+    border: 5px ridge black;
+}
+
+img {
+    width: 100px;
+}
+
+img:hover {
+    border: 5px ridge white;
+}
+
+hr {
+    border: 2px ridge gray;
+}
